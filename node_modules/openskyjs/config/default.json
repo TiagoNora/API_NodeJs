@@ -1,0 +1,16 @@
+{
+  "openSkyNetwork": {
+    "protocol": "https",
+    "hostname": "opensky-network.org/api",
+    "rateLimits": {
+      "/states/all": {
+        "auth": 5,
+        "noAuth": 10
+      },
+      "/states/own": {
+        "auth": 0,
+        "noAuth": 1
+      }
+    }
+  }
+}
